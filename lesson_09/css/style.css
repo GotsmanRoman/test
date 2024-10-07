@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Epilogue:400,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap");
+
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #091133;
+}
+
+h1 {
+  line-height: 3;
+}
+
+h1 {
+  font-family: "Oswald";
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 10px;
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+}
+footer {
+  min-height: 100px;
+  background-color: #893434d4;
+  padding-top: 45px;
+}
+footer h3 {
+  font-family: "Oswald";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #fff;
+  text-transform: uppercase;
+}
+header {
+  margin-bottom: 100px;
+}
+.homework {
+  margin-bottom: 100px;
+}
+.header-menu {
+  text-align: center;
+}
+.header-list-item {
+  display: inline-block;
+}
+.header-list-item:not(nth-last-child) {
+  margin-right: 15px;
+}
+.header-list-item:hover > a {
+  color: rgb(6, 49, 167);
+  text-decoration: underline dotted 3px;
+  text-underline-offset: 6px;
+}
+
+/* HomeWork 1 START */
+.homework1 {
+  background-color: #fdf0e9;
+  color: #ddd;
+}
+.homework1-container {
+  max-width: 1200px;
+  padding-inline: 15px;
+  margin: 0 auto;
+  font-size: 0;
+  padding-block: 100px;
+}
